@@ -1,5 +1,5 @@
 from tastypie.resources import ModelResource
-from location.models import Location
+from cap_location.models import Location
 
 import urllib
 import urllib2
