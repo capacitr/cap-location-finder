@@ -1,3 +1,4 @@
+from django.contrib import admin
 from cap_location.models import Location
 
 
