@@ -3,6 +3,6 @@ from cap_location.models import Location
 
 
 class LocationAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["name", "address", "lat", "lng"]
 
 admin.site.register(Location, LocationAdmin)
